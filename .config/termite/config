@@ -1,0 +1,74 @@
+[options]
+resize_grip = false
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+visible_bell = false
+mouse_autohide = false
+allow_bold = false
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+#font = Tewi 11
+#font = Terminess Powerline
+font = Monaco for Powerline 12
+scrollback_lines = 1000
+search_wrap = true
+geometry = 680x420
+#icon_name = terminal
+
+# 0.0: opaque, 1.0: transparent
+transparency = 0.7
+pseudo_transparency = true
+
+# "system", "on" or "off"
+cursor_blink = off
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default
+browser = /home/enigma/browser.sh
+
+# word characters used for word selection
+# (default if unset: all graphic non-punctuation/space characters)
+word_chars = -A-Za-z0-9,./?%&#:_=+@~
+
+#[colors]
+#foreground = #839496
+#foreground_bold = #eee8d5
+#foreground_dim = #888888
+#background = #1f1f22
+cursor = #93a1a1S
+
+
+[colors]
+background = #191919
+#background = rgba(0, 0, 0, 0.5)
+foreground = #C0C0C0
+color0 = #353535
+color8 = #666666
+color1 = #AE4747
+color9 = #EE6363
+color2 = #556B2F
+color10 = #9ACD32
+color3 = #DAA520
+color11 = #FFC125
+color12 = #6F99B4
+color4 = #7C96B0
+color5 = #8B7B8B
+color13 = #CF9EBE
+color6 = #A7A15E
+color14 = #F0E68C
+color7 = #DDDDDD
+color15 = #FFFFFF
+#cursor = #508ac5
+
+#[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0

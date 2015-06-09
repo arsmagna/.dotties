@@ -1,0 +1,25 @@
+set ftp:skey-allow yes
+ 
+# do not send plain text password over the network, use skey/opie instead. If skey/opie is not available, assume 
+# failed login. Off by default. 
+set ftp:skey-force no
+ 
+# if true, try to negotiate SSL connection with ftp server for non-anonymous access. Default is true. This and 
+# other ssl settings are only available if lftp was compiled with an ssl/tls library. 
+set ftp:ssl-allow yes
+ 
+# if true, lftp loads ssl:key-file for protected data connection too. When false, it does not, and the server can 
+# match data and control connections by session ID. Default is true. 
+# if true, refuse to send password in clear when server does not support SSL. Default is false.
+set ftp:ssl-force yes
+ 
+# if true, request ssl connection for data transfers. This is cpu-intensive but provides privacy. Default is false.
+set ftp:ssl-protect-data yes
+ 
+# if true, request ssl connection for data transfer between two ftp servers in FXP mode. CPSV or SSCN command will 
+# be used in that case. If ssl connection fails for some reason, lftp would try unprotected FXP transfer unless 
+# ftp:ssl-force is set for any of the two servers. Default is false. 
+set ftp:ssl-protect-fxp yes
+ 
+# if true, request ssl connection for file list transfers. Default is true.
+set ftp:ssl-protect-list yes

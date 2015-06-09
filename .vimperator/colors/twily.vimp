@@ -1,0 +1,45 @@
+"" vimperator colorscheme twily
+
+highlight! CmdLine color: #ffffff; background: #1A1A1A;
+highlight! CmdLine>* font-family: Monaco for Powerline; font-size: 10pt;
+highlight! Normal color: #ffffff; background: #1A1A1A; font-family: Monaco for Powerline; font-size: 10pt;
+highlight! StatusLine color: #737373; background: #1A1A1A; font-family: Monaco for Powerline; font-size: 10pt;
+
+highlight! Bell border: none; background: #1A1A1A;
+highlight! Boolean color: #3B3B3B;
+highlight! CompDesc width: auto; color: #ffffff;
+highlight! CompItem>* height: auto;
+highlight! CompItem[selected] background: #121212;
+highlight! CompTitle background: #2B2B2B; font-family: Monaco for Powerline; font-size: 10pt;
+highlight! CompTitle>* color: #ffffff; padding: 2px 4px;
+highlight! ContentSeparator display: -moz-box;
+
+highlight! Disabled color: #3B3B3B;
+highlight! Enabled color: #ffffff;
+highlight! ErrorMsg color: #B3596B; font-family: Monaco for Powerline; font-size: 10pt;
+highlight! Filter color: #AAAAAA; background: #55468C;
+highlight! FrameIndicator background: #121212; opacity: 0.5; z-index: 999; position: fixed; top: 0; bottom: 0; left: 0; right: 0;
+
+highlight! HelpNote color: #8859B3;
+highlight! HelpWarning color: #B359A4;
+
+highlight! Hint font-family: Monaco for Powerline; font-size: 10pt; color: #AAAAAA; background: #55468c; padding: 1px;
+highlight! HintActive color: #ffffff; background-color: #121212;
+highlight! HintElem background: transparent;
+highlight! HintImage opacity: 0.5;
+
+highlight! InfoMsg color: #ffffff;
+highlight! Keyword color: #ffffff;
+highlight! LineNr color: #3B3B3B;
+highlight! NonText color: #3B3B3B;
+
+highlight! ModeMsg color: #737373; background: transparent; padding: 0 2px; font-family: Monaco for Powerline; font-size: 10pt;
+highlight! MoreMsg color: #ffffff; font-family: Monaco for Powerline; font-size: 10pt;
+
+highlight! PromptText color: #ffffff; padding-top: 4px;
+highlight! Question color: #ffffff;
+
+highlight! Title color: #737373;
+highlight! WarningMsg color: #ffffff;
+
+
